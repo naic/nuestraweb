@@ -9,7 +9,6 @@ function Valores(arreglo){
   c1=0;
   c2=0;
   c3=0;
-  c4=0; 
   for(x=0; x<arreglo.length; x++){
     n=prompt('Ingrese un numero','');
     arreglo[x]=parseInt(n);
@@ -18,7 +17,7 @@ function Valores(arreglo){
        c2=c2+parseInt(n);
     }
     if(arreglo[x]>50){
-       c4=c3++;
+       c3++;
     }
   }
    document.write('Valor acumulado: '+c1+'<br>');
