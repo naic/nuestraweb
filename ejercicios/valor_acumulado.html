@@ -1,0 +1,37 @@
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+function Valores(arreglo){
+  var x,c1,n;
+  c1=0;
+  c2=0;
+  c3=0;
+  c4=0; 
+  for(x=0; x<arreglo.length; x++){
+    n=prompt('Ingrese un numero','');
+    arreglo[x]=parseInt(n);
+    c1=c1+arreglo[x];
+    if(arreglo[x]>36){
+       c2=c2+parseInt(n);
+    }
+    if(arreglo[x]>50){
+       c4=c3++;
+    }
+  }
+   document.write('Valor acumulado: '+c1+'<br>');
+   document.write('Valor acumulado de mayores a 36: '+c2+'<br>');
+   document.write('cantidad de valores mayores a 50: '+c3+'<br>');
+   
+}
+
+var arreglo;
+arreglo=new Array(8);
+Valores(arreglo);
+
+</script>
+
+</body>
+</html>
