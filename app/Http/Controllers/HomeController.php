@@ -32,5 +32,9 @@ class HomeController extends Controller {
 	{
 		return view('web');
 	}
+	public function nosotros()
+	{
+		return view('nosotros');
+	}
 
 }
