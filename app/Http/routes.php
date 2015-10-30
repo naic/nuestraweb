@@ -12,10 +12,20 @@
 */
 
 Route::get('/', 'WelcomeController@index');
-
+/*
+_________________________HOME_________________________________________________
+*/
 Route::get('home', 'HomeController@index');
 Route::get('nosotros','HomeController@nosotros');
-
+/*
+_________________________SERVICIOS____________________________________________
+*/
+Route::get('servicios/redes', 'ServiciosController@index');
+Route::get('servicios/soporte', 'ServiciosController@index');
+Route::get('servicios/desarrollo', 'ServiciosController@index');
+/*
+_________________________NOSOTROS_____________________________________________
+*/
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

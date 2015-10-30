@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: "Space Age";
+	background: "#ccc";
 }
 li{
 	list-style: none;
@@ -51,16 +52,13 @@ h1, h2{
 .nav-bar{
 	margin-top: 27px;
 }
-.navbar-toggle span{
-	color: #fff;
-}
 ul.nav{
 	margin: 0;
 	padding: 0;
 }
 .navbar-default .navbar-nav>li>a {
- 	font-size: 24px;
-	color: #000;
+ 	font-size: 15px;
+	color: #999;
 	text-transform: uppercase;
 	transition: all .7s ease 0s;
 	-webkit-transition: all .7s ease 0s;
@@ -71,13 +69,13 @@ ul.nav{
 	font-weight: bold;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color: #999;
+	color: #4e1834;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #000;
 }
 li a.active{
-	color: #42b3e5 !important;
+	color: #4e1834 !important;
 }
 .navbar-default .navbar-toggle {
   border-color: #fff;
@@ -97,13 +95,13 @@ li a.active{
 	background: #000 !important;
 }
 .carousel-caption h1{
-	font-size: 157px;
+	font-size: 80px;
 	color: #fff;
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
 .carousel-caption p{
-	font-size: 40px;
+	font-size: 30px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -112,7 +110,7 @@ li a.active{
 .carousel-caption button{
 	width: 240px;
 	height: 60px;
-	background: #3a9ecb;
+	background: #4e1834;
 	color: #fff;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -168,7 +166,7 @@ li a.active{
 /*about area*/
 .about h2{
 	font-size: 90px;
-	color: #42b3e5;
+	color:  #4e1834;
 	margin-top: 50px;
 }
 .about h4{
@@ -248,28 +246,28 @@ li a.active{
 	padding-bottom: 30px;
 }
 .single-about-detail:hover .about-details{
-	background: #3a9dca;
+	background: #4e1834;
 }
 .single-about-detail:hover .pentagon-text h1{
-	color: #3a9dca;
+	color: #4e1834;
 }
 
 
 /*service area*/
 .service{
-	background: url(../img/pattern.jpg);
+	background: url(../img/);
 	background-repeat: repeat-y;
 	margin-top: 40px;
 }
 .service h2{
 	font-size: 90px;
-	color: #fff;
+	color: #4e1834;
 	margin-top: 70px;
 	margin-bottom: 0;
 }
 .service h4{
 	font-size: 24px;
-	color: #fff;
+	color: #4e1834;
 	margin-top: 0;
 	margin-bottom: 70px;
 	display: block;
@@ -291,7 +289,7 @@ li a.active{
 }
 .single-service h3{
 	margin-top: 10px;
-	color: #fff;
+	color: #4e1834;
 	padding-bottom: 50px;
 	position:relative;
 }
@@ -391,7 +389,7 @@ li a.active{
 
 /*contact section*/
 .contact-caption{
-	background: #3a9dca;
+	background: #4e1834;
 }
 .contact-heading h2{
 	color: #fff;
@@ -458,11 +456,11 @@ li a.active{
 	margin-bottom: 12px;
 }
 .info-detail{
-	border-top: 1px solid #53cde5;
+	border-top: 1px solid #2e0e1f;
 	padding-top: 15px;
 }
 .form{
-	border-top: 1px solid #53cde5;
+	border-top: 1px solid #2e0e1f;
 	padding-top: 15px;
 	text-align: right;
 }
@@ -475,7 +473,7 @@ li a.active{
 	background: url(../img/btn-bg.jpg);
 	background-repeat: no-repeat;
 	padding: 0;
-	font-family: 'BenchNine', sans-serif;
+	font-family: 'Space Age', sans-serif;
 	font-weight: bold;
 	
 }
