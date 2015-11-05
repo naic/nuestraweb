@@ -27,18 +27,8 @@
 					      <ul class="nav navbar-nav navbar-right">
 					        <li><a class="menu active" href="#home" >Home</a></li>
 					        <li><a class="menu" href="#about">Nosotros</a></li>
-					        <li><a class="menu" href="#">Posts</a></li>
-					        <li><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-      								Servicios<span class="caret"></span>
-    							</a>
-    								<ul class="dropdown-menu">
-								      <li><a href="#service">Desarrollo Web</a></li>
-								      <li><a href="#service">Desarrollo Movil</a></li>
-								      <li><a href="#service">Redes</a></li>
-								      <li><a href="#service">Consultoria</a></li>
-								    </ul>
-							</li>
-					        <li><a class="menu" href="#">Tutoriales</a></li>
+					        <li><a class="menu" href="#service">Servicios</a></li>
+					        <li><a class="menu" href="#">Blog</a></li>
 					        <li><a class="menu" href="#contact">Contactanos</a></li>
 					      </ul>
 					    </div><!-- /navbar-collapse -->

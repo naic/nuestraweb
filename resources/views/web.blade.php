@@ -19,10 +19,10 @@
 				                </div>
 				            </div>
 				            <div class="item">
-				            	<img src="img/soporte.jpg" alt="">
+				            	<img src="img/diseno.jpg" alt="">
 				                <div class="carousel-caption">
-			               			<h1>Redes Informáticas</h1>
-			               			<p>Las comunicaciones son una parte fundamental en el mundo de la tecnologia de la información.</p>
+			               			<h1>Diseño Gráfico</h1>
+			               			<p>Talento Creativo a tu disposicion.</p>
 				                </div>
 				            </div>
 				            <div class="item">
@@ -41,7 +41,7 @@
 				            </div>
 				        </div>
 
-				        <!-- Controls -->
+				        <!-- Controles del slider -->
 				        <a class="left carousel-control" href="#carouselHacked" role="button" data-slide="prev">
 				            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 				            <span class="sr-only">Previous</span>
@@ -54,75 +54,60 @@
 
 				</div>
 			</div>
-		</section><br><!-- end of slider section -->
+		</section><br><!-- fin del slider -->
 
 
-		<!-- about section -->
+		<!-- Seccion de Nosotros -->
 		<section class="about text-center" id="about">
 			<div class="container">
 				<div class="row">
 					<h2>Sobre Nosotros</h2>
 					<h4>Jóvenes programadores entusiastas, con altísimas ganas de apoyar a los emprendedores venezolanos, con nuevas tecnologías y buenas prácticas en el desarrollo de aplicaciones web. </h4>
-
 					<div class="col-md-4 col-sm-6">
 						<div class="single-about-detail clearfix">
-							<div class="about-img">
-								<img src="img/about1.jpg" alt="">
-							</div>
-
-							<div class="about-details">
-								
-								<div class="pentagon-text">
-									<h1>N</h1>
-								</div>
-
-								<h3>Naicelis Pulido</h3>
-								<p>Ingeniera de Sistemas<br>Administrador de Base de datos</p>
-							</div>
+					          <img src="img/naicelis.jpg" width="250" height="250" alt="naicelis" class="avatar">      
+					          	<p class="nombre">Naicelis Pulido</p>
+					          	<p class="Author_name t-color">Ingeniera de sistemas</p>
+					          	<p class="Author_name t-color">Administrador de Base de datos</p>
+						</div>
+						<div class="Author_social">
+							<a class="t-color" target="_blank" href=""><i class="fa fa-twitter"></i></a>
+							<a class="t-color" target="_blank" href="https://www.facebook.com/Naiclibra"><i class="fa fa-facebook"></i></a>
+							<a class="t-color" target="_blank" href=""><i class="fa fa-linkedin"></i></a>        
 						</div>
 					</div>
-
 					<div class="col-md-4 col-sm-6">
-						<div class="single-about-detail">
-							<div class="about-img">
-								<img class="img-responsive" src="img/about2.jpg" alt="">
-							</div>
-
-							<div class="about-details">
-								<div class="pentagon-text">
-									<h1>V</h1>
-								</div>
-
-								<h3>Vincen Santaella</h3>
-								<p>Ingeniero de Sistemas<br>Programador (Frontend)</p>
-							</div>
+						<div class="single-about-detail clearfix">
+					          <img src="img/vincen.jpg" width="250" height="250" alt="vincen" class="avatar">      
+					          		<p class="nombre">Vincen Santaella</p>
+					          		<p class="Author_name t-color">Ingeniero de sistemas</p>
+					          		<p class="Author_name t-color">Programador (frontend)</p>
+						</div>
+						<div class="Author_social">
+							<a class="t-color" target="_blank" href="https://twitter.com/vinrast"><i class="fa fa-twitter"></i></a>
+							<a class="t-color" target="_blank" href="https://es-la.facebook.com/vincenyoel"><i class="fa fa-facebook"></i></a>
+							<a class="t-color" target="_blank" href="https://ve.linkedin.com/pub/vincen-santaella/105/b18/a22"><i class="fa fa-linkedin"></i></a>        
 						</div>
 					</div>
-
-
 					<div class="col-md-4 col-sm-6">
-						<div class="single-about-detail">
-							<div class="about-img">
-								<img class="img-responsive" src="img/about3.jpg" alt="">
-							</div>
-
-							<div class="about-details">
-								<div class="pentagon-text">
-									<h1>R</h1>
-								</div>
-
-								<h3>Richard Flores</h3>
-								<p>Ingeniero de Sistemas<br>Programador (Backend)</p>
-							</div>
+						<div class="single-about-detail clearfix">
+					          <img src="img/richard.jpg" width="250" height="250" alt="richard" class="avatar">      
+					          		<p class="nombre">Richard Flores</p>
+					          		<p class="Author_name t-color">Ingeniero de sistemas</p>
+					          		<p class="Author_name t-color">Programador (Backend)</p>
+						</div>
+						<div class="Author_social">
+							<a class="t-color" target="_blank" href=""><i class="fa fa-twitter"></i></a>
+							<a class="t-color" target="_blank" href="https://www.facebook.com/richardflores1990"><i class="fa fa-facebook"></i></a>
+							<a class="t-color" target="_blank" href=""><i class="fa fa-linkedin"></i></a>        
 						</div>
 					</div>
-
 				</div>
 			</div>
-		</section><!-- end of about section -->
+		</section><!-- Fin de la seccion Nosotros -->
 
 
-		<!-- service section starts here -->
+		<!-- Inicio de la Seccion Servicios -->
 
 		<section class="service text-center" id="service">
 			<div class="container">
@@ -152,10 +137,10 @@
 					    </div>	
 					    <div class="col-md-3">
 					    	<div class="thumbnail">
-					      		<img src="img/redes.jpg" alt="...">
+					      		<img class="image-responsive"src="img/disenoservicio.jpg" alt="...">
 					      		<div class="caption">
-					        		<h3>Redes</h3>
-					        		<p>Porque sin lineas de comunicacion no hay Informatica</p>
+					        		<h3>Diseño</h3>
+					        		<p>di que tienes en mente, y plasmemos una marca</p>
 					        		<p><a href="#" class="btn btn-default" role="button">Leer Mas</a></p>
 					    		</div>
 					  		</div>
@@ -173,7 +158,8 @@
 					</div>
 				</div>
 			</div>
-		</section><!-- end of service section -->
+		</section>
+		<!-- Fin de la seccion servicios -->
 
 
 		<!-- team section
@@ -238,16 +224,16 @@
 			</div>
 		</section><! end of team section -->
 
-		<!-- map section -->
+		<!-- Seccion de la api de google para el mapa -->
 		<section class="api-map" id="contact">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12 map" id="map"></div>
 				</div>
 			</div>
-		</section><!-- end of map section -->
+		</section><!-- fin de la seccion del mapa -->
 
-		<!-- contact section starts here -->
+		<!-- Inicio de la seccion Contacto-->
 		<section class="contact">
 			<div class="container">
 				<div class="row">
@@ -270,11 +256,12 @@
 							<div class="col-md-6 col-md-offset-1 contact-form">
 								<h3>Envianos un mensaje</h3>
 
-								<form class="form">
-									<input class="name" type="text" placeholder="Nombre">
-									<input class="email" type="email" placeholder="Correo Electronico">
-									<input class="phone" type="text" placeholder="Telefono:">
-									<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+								<form action="../agregar-exitoso" method ="post" onsubmit="return validacion()">
+									<input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+									<input class="name" name="nombre" id="nombre" type="text" placeholder="Nombre">
+									<input class="email" name="email" id="correo" type="email" placeholder="Correo Electronico">
+									<input class="phone" name="telefono" maxlength="11" id="telefono" type="text" placeholder="Telefono:">
+									<textarea class="message" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
 									<input class="submit-btn" type="submit" value="Enviar">
 								</form>
 							</div>
@@ -282,6 +269,6 @@
 						</div>
 				</div>
 			</div>
-		</section><!-- end of contact section -->
+		</section><!-- Fin de la seccion contacto -->
  @include('layouts/footer')
 	

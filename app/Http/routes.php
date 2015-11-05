@@ -16,6 +16,7 @@ Route::get('/', 'WelcomeController@index');
 _________________________HOME_________________________________________________
 */
 Route::get('home', 'HomeController@index');
+Route::get('galeria', 'HomeController@galeria');
 Route::get('nosotros','HomeController@nosotros');
 /*
 _________________________SERVICIOS____________________________________________
@@ -30,3 +31,7 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+/*
+_________________________MENSAJES_____________________________________________
+*/
+Route::post('agregar-exitoso','HomeController@agregar_mensaje');
